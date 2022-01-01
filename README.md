@@ -1,5 +1,9 @@
 # 196bot
-Run with:
+Telegram bot designed to allow the user to _easily_ edit the bot's code from the Telegram chat.
+
+**Warning**: In its current version it allows the user to edit any text file, even outside the bot's source code. Use carefully.
+
+### How to run
 ```
 ./init.sh
 ```
