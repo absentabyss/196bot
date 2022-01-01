@@ -23,7 +23,7 @@ filesystem (though the bot could technically be run as a separate user).
 
 /help: Displays help message.
 
-/in <register_label>: Activates a register for the user. The following messages
+/in [register_label]: Activates a register for the user. The following messages
 from the user will be stored inside the register until the register is released
 with /ni.
 
@@ -31,25 +31,25 @@ with /ni.
 
 /regs: Lists all non-empty registers of the user.
 
-/print <register_label>: Shows the content of a register.
+/print [register_label]: Shows the content of a register.
 
-/clear <register_label>: Clears register.
+/clear [register_label]: Clears register.
 
 /clear_all: Clears registry containing all registers for the user.
 
-/ls <directory>: Checks directories.
+/ls [directory]: Checks directories.
 
-/read <file> <line_start> <line_end>: Reads from line_start to line_end from file.
+/read [file] [line_start] [line_end]: Reads from line_start to line_end from file.
 
-/new <register_label> <file>: Writes the contents of a register into a new file.
+/new [register_label] [file]: Writes the contents of a register into a new file.
 
-/inject <register_label> <file> <line>: Writes the contents of a register at a
+/inject [register_label] [file] [line]: Writes the contents of a register at a
 line in file.
 
-/overwrite <label> <file> <line_start> <line_end>: Overwrites from line_start to
+/overwrite [label] [file] [line_start] [line_end]: Overwrites from line_start to
 line_end of file with the contents of a register.
 
-/trim <file> <line_start> <line_end>: Deletes from line_start to line_end in file.
+/trim [file] [line_start] [line_end]: Deletes from line_start to line_end in file.
 
 /revert: Reverts files to a previous version.
 
